@@ -2,11 +2,18 @@
 <html>
     <head>
         <title>Add to Cart</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
     </head>
     <body>
-        <input type="text" id="input-field" placeholder="Bread">
-        <button id="add-button">Add to cart</button>
-        <script src="index.js"></script>
+        <div class="container">
+            <img src="https://media.giphy.com/media/NRfkD6EPZSvx1peeNt/giphy.gif?cid=ecf05e47l6uwj0bb8kasx6jj7pwa4osrtnjg0dvefrr7d5h5&ep=v1_stickers_search&rid=giphy.gif&ct=s" alt="logo">
+            <input type="text" id="input-field" placeholder="e.g: Bread">
+            <button id="add-button">Add to cart</button>
+            <ul id="shopping-list">
+            </ul>
+        </div>
+        <script src="index.js" type="module"></script>
     </body>
 </html>
